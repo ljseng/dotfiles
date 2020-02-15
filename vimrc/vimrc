@@ -17,3 +17,6 @@ set showmatch
 
 " Folding
 set foldmethod=indent nofoldenable
+
+" Better command line completion
+set wildmenu
