@@ -11,3 +11,6 @@ set hls incsearch ignorecase smartcase
 
 " Syntax on
 syntax on
+
+" Show matching parenthesis
+set showmatch
