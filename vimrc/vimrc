@@ -23,3 +23,8 @@ set wildmenu
 
 " Always display status line
 set laststatus=2
+
+" Cursor
+let &t_SI = "\<Esc>[5 q" " INSERT mode blinking vertical bar
+let &t_SR = "\<Esc>[4 q" " REPLACE mode underscore
+let &t_EI = "\<Esc>[1 q" " NORMAL mode blinking solid block
